@@ -1,7 +1,5 @@
 # Codewars Solutions 💫
-[![Codewars](https://www.codewars.com/users/sejosephmartin/badges/large)](https://www.codewars.com/users/sejosephmartin)
-
-![Codewars Logo](https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/634816d46fc4a32b2a583416_codewars-og-image.png)
+[![Codewars](https://www.codewars.com/users/jfmartinz/badges/large)](https://www.codewars.com/users/jfmartinz)
 
 ## About 🌐
 
