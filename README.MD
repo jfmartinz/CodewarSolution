@@ -1,11 +1,7 @@
-# Codewars Solutions 💫
-
-
 ![Codewars Logo](https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/634816d46fc4a32b2a583416_codewars-og-image.png)
 [![Codewars](https://www.codewars.com/users/jfmartinz/badges/large)](https://www.codewars.com/users/sejosephmartin)
 
-# Codewars Challenges
-
+---
 
 ## Description
 This repository contains my solutions to various Codewars challenges. The challenges are organized based on their kyu ratings. The main goal of this repository is to improve my problem-solving skills, critical thinking skills, and proficiency in JavaScript.
