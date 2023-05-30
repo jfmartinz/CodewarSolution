@@ -1,24 +1,18 @@
-![Codewars Logo](https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/634816d46fc4a32b2a583416_codewars-og-image.png)
-[![Codewars](https://www.codewars.com/users/jfmartinz/badges/large)](https://www.codewars.com/users/sejosephmartin)
+
+<p style="text-align: center;">
+  <img src="https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/634816d46fc4a32b2a583416_codewars-og-image.png" alt="Codewars Logo">
+  <a href="https://www.codewars.com/users/jfmartinz">
+    <img src="https://www.codewars.com/users/jfmartinz/badges/large" alt="Codewars" />
+  </a>
+</p>
+
 
 ---
 
 ## Description
 This repository contains my solutions to various Codewars challenges. The challenges are organized based on their kyu ratings. The main goal of this repository is to improve my problem-solving skills, critical thinking skills, and proficiency in JavaScript.
 
-In this repository, you will find a collection of Codewars challenges that I have solved. Codewars is a platform that provides coding challenges of varying difficulty levels, known as kyu ratings. By working on these challenges, I aim to enhance my programming abilities and deepen my understanding of JavaScript.
-
---- 
-
-## Reason for Doing Codewars Challenges
-
-There are several reasons why I have chosen to engage in Codewars challenges:
-
-1. **Improving Problem-Solving Skills**: Codewars challenges are designed to test problem-solving abilities. By tackling these challenges, I can enhance my logical thinking and develop effective strategies to solve complex problems.
-
-2. **Enhancing Critical Thinking Skills**: Codewars challenges often require analyzing the problem, identifying patterns, and devising efficient solutions. Engaging in these challenges helps sharpen my critical thinking skills and fosters creativity in finding innovative approaches.
-
-3. **Becoming Proficient in JavaScript**: Codewars challenges provide an excellent opportunity to deepen my understanding of JavaScript. By solving diverse problems, I can explore different aspects of the language and gain hands-on experience with various JavaScript concepts, functions, and algorithms.
+In this repository, you will find a collection of Codewars challenges that I have solved. Codewars is a platform that provides coding challenges of varying difficulty levels, known as kyu ratings. By working on these challenges, I aim to enhance my programming abilities and deepen my understanding in JavaScript.
 
 ---
 
@@ -46,6 +40,6 @@ Within each kyu rating folder, you will find individual challenges with their de
 
 ## Conclusion
 
-By engaging in Codewars challenges and maintaining this repository, I am actively working towards improving my problem-solving skills, critical thinking abilities, and proficiency in JavaScript. I hope you find the solutions provided in this repository informative and valuable
+n conclusion, Codewars is a great platform for developers of all levels to improve their skills. The challenges are well-designed and challenging, and the community is supportive and helpful. By consistently practicing solving problems on Codewars, I have improved my problem-solving skills, critical thinking, and many other skills that are essential for becoming a good developer.
 
 Feel free to explore the challenges and review the solutions. Happy Coding! 🚀
