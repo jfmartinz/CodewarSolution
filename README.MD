@@ -40,6 +40,6 @@ Within each kyu rating folder, you will find individual challenges with their de
 
 ## Conclusion
 
-n conclusion, Codewars is a great platform for developers of all levels to improve their skills. The challenges are well-designed and challenging, and the community is supportive and helpful. By consistently practicing solving problems on Codewars, I have improved my problem-solving skills, critical thinking, and many other skills that are essential for becoming a good developer.
+In conclusion, Codewars is a great platform for developers of all levels to improve their skills. The challenges are well-designed and challenging, and the community is supportive and helpful. By consistently practicing solving problems on Codewars, I have improved my problem-solving skills, critical thinking, and many other skills that are essential for becoming a good developer.
 
 Feel free to explore the challenges and review the solutions. Happy Coding! 🚀
