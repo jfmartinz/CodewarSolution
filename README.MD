@@ -22,8 +22,9 @@ The challenges in this repository are organized based on their kyu ratings. Here
 
 - [8kyu Rating](./8kyu) -  This folder contains Codewars challenges with a 8kyu rating.
 - [7kyu Rating](./7kyu) -  This folder contains Codewars challenges with a 7kyu rating.
+- [6kyu Rating](./6kyu) -  This folder contains Codewars challenges with a 6kyu rating.
 
- This folder contains Codewars challenges with an 8kyu rating.
+ 
 
 Feel free to explore the folders and check out the solutions to the challenges I have completed. Each challenge solution is stored in its respective folder.
 
@@ -34,7 +35,7 @@ Feel free to explore the folders and check out the solutions to the challenges I
 Within each kyu rating folder, you will find individual challenges with their descriptions and solutions. Each challenge will contain the following information:
 
 - **Challenge Description:** A brief overview of the challenge requirements and constraints.
-- **Solution:** The actualJavaScript code that solves the challenge.
+- **Solution:** The actual JavaScript code that solves the challenge.
 
 ---
 
