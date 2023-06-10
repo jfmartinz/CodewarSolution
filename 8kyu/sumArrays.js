@@ -21,9 +21,11 @@
 
 function sum (numbers) {
   
-    if (!numbers.length) {  
-     return 0;
-   }
-   return numbers.reduce((sum, num) => sum + num, 0);
+  //   if (!numbers.length) {  
+  //    return 0;
+  //  }
+  //  return numbers.reduce((sum, num) => sum + num, 0);
+
+  return !numbers.length ? 0: numbers.reduce((sum, num) => sum + num, 0);
      
  };
