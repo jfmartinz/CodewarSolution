@@ -1,17 +1,18 @@
 
 <p style="left">
   <img src="https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/634816d46fc4a32b2a583416_codewars-og-image.png" alt="Codewars Logo">
-  <a href="https://www.codewars.com/users/jfmartinz">
-    <img src="https://www.codewars.com/users/jfmartinz/badges/large" alt="Codewars" />
-  </a>
 
    > <p> Let's become allies on Codewars and level up together! 🤝 Follow me, and I'll gladly return the favor! 🥷</p>
-
- 
 </p>
 
+ | Description    | Preview |
+| --- | --- |
+| Codewars Stats |  [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=jfmartinz&theme=dark)](https://www.codewars.com/users/jfmartinz/stats) |
+| Codewars Badge |  <a href="https://www.codewars.com/users/jfmartinz"><img src="https://www.codewars.com/users/jfmartinz/badges/large" alt="Codewars" /> |
 
----
+ ---
+
+
 
 ## Description
 This repository contains my solutions to various Codewars challenges. The challenges are organized based on their kyu ratings. The main goal of this repository is to improve my problem-solving skills, critical thinking skills, and proficiency in JavaScript.
