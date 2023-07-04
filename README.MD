@@ -7,7 +7,7 @@
 
    > <p> Let's become allies on Codewars and level up together! 🤝 Follow me, and I'll gladly return the favor! 🥷</p>
 
-   > To access the link, please click on my profile badge located above or navigate to the top right corner of the page. See you 🙌
+ 
 </p>
 
 
