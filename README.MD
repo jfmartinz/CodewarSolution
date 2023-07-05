@@ -5,7 +5,7 @@
    > <p> Let's become allies on Codewars and level up together! 🤝 Follow me, and I'll gladly return the favor! 🥷</p>
 </p>
 
- | Description    | Preview |
+ |     |  |
 | --- | --- |
 | Codewars Stats |  [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=jfmartinz&theme=dark)](https://www.codewars.com/users/jfmartinz/stats) |
 | Codewars Badge |  <a href="https://www.codewars.com/users/jfmartinz"><img src="https://www.codewars.com/users/jfmartinz/badges/large" alt="Codewars" /> |
