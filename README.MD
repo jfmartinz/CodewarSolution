@@ -27,11 +27,13 @@ In this repository, you will find a collection of Codewars challenges that I hav
 
 The challenges in this repository are organized based on their kyu ratings. Here is an overview of the folder structure:
 
-- [8kyu Rating](./8kyu) -  This folder contains Codewars challenges with a `8kyu rating`.
-- [7kyu Rating](./7kyu) -  This folder contains Codewars challenges with a `7kyu rating`.
-- [6kyu Rating](./6kyu) -  This folder contains Codewars challenges with a `6kyu rating`.
+ 1. [8kyu Rating](./8kyu) -  This folder contains Codewars challenges with a `8kyu rating`.
+      - [8kyu-1](./8kyu-1) - This folder contains additional `8kyu` katas. 
+ 2. [7kyu Rating](./7kyu) -  This folder contains Codewars challenges with a `7kyu rating`.
+      - [7kyu-1](./7kyu-1) - This folder contains addiitional `7kyu` katas. 
+ 3. [6kyu Rating](./6kyu) -  This folder contains Codewars challenges with a `6kyu rating`.
 
- 
+
 
 Feel free to explore the folders and check out the solutions to the challenges I have completed. Each challenge solution is stored in its respective folder.
 
