@@ -1,16 +1,23 @@
 
-<p style="left">
+<p align="center">
   <img src="https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/634816d46fc4a32b2a583416_codewars-og-image.png" alt="Codewars Logo">
 
-   Let's become allies on Codewars and level up together! 🤝 [Follow me](https://www.codewars.com/users/jfmartinz), and I'll gladly return the favor! 🥷
-
-   > Want to enhance your JavaScript skills ? Explore my categorized collection of katas to practice [here](https://www.codewars.com/users/jfmartinz/authored_collections) 🥷
-</p>
 
  |     |  |
 | --- | --- |
 | Codewars Stats |  [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=jfmartinz&theme=dark)](https://www.codewars.com/users/jfmartinz/stats) |
 | Codewars Badge |  <a href="https://www.codewars.com/users/jfmartinz"><img src="https://www.codewars.com/users/jfmartinz/badges/large" alt="Codewars" /> |
+
+
+<div align="center">
+
+  Let's become allies on Codewars and level up together! 🤝 [Follow me](https://www.codewars.com/users/jfmartinz), and I'll gladly return the favor! 🥷
+
+   > Want to enhance your JavaScript skills ? Explore my categorized collection of katas to practice [here](https://www.codewars.com/users/jfmartinz/authored_collections) 🥷
+
+</div>
+
+</p>
 
  ---
 
