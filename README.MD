@@ -1,6 +1,8 @@
 
 <p align="center">
   <img src="https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/634816d46fc4a32b2a583416_codewars-og-image.png" alt="Codewars Logo">
+  
+<div align="center">
 
 
  |     |  |
@@ -9,7 +11,6 @@
 | Codewars Badge |  <a href="https://www.codewars.com/users/jfmartinz"><img src="https://www.codewars.com/users/jfmartinz/badges/large" alt="Codewars" /> |
 
 
-<div align="center">
 
   Let's become allies on Codewars and level up together! 🤝 [Follow me](https://www.codewars.com/users/jfmartinz), and I'll gladly return the favor! 🥷
 
