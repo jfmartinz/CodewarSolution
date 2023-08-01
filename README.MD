@@ -25,7 +25,7 @@ In this repository, you will find a collection of Codewars challenges that I hav
 
  Let's become allies on Codewars and level up together! 🤝 [Follow me](https://www.codewars.com/users/jfmartinz), and I'll gladly return the favor! 🥷
 
-> Want to enhance your JavaScript skills ? Explore my categorized collection of katas to practice [here](https://www.codewars.com/users/jfmartinz/authored_collections) 🥷
+>  Explore my categorized collection of katas to practice [here](https://www.codewars.com/users/jfmartinz/authored_collections) 🥷
 
 ---
 
