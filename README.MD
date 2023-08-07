@@ -38,6 +38,7 @@ The challenges in this repository are organized based on their kyu ratings. Here
  2. [7kyu Rating](./7kyu):  This folder contains Codewars challenges with a `7kyu rating`.
       - [7kyu-1](./7kyu-1): This folder contains addiitional `7kyu` katas. 
  3. [6kyu Rating](./6kyu):  This folder contains Codewars challenges with a `6kyu rating`.
+ 4. [5kyu Rating](./5kyu):  This folder contains Codewars challenges with a `5kyu rating`.
 
 
 
