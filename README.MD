@@ -5,10 +5,10 @@
 <div align="center">
 
 
- |     |  |
-| --- | --- |
-| Codewars Stats |  [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=jfmartinz&theme=dark)](https://www.codewars.com/users/jfmartinz/stats) |
-| Codewars Badge |  <a href="https://www.codewars.com/users/jfmartinz"><img src="https://www.codewars.com/users/jfmartinz/badges/large" alt="Codewars" /> |
+ |                |                                                                                                                                                              |
+ | -------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+ | Codewars Stats | [![Github Readme Codewars](https://codewars-stats-ignacio-cuadra.vercel.app/?username=jfmartinz&theme=dark)](https://www.codewars.com/users/jfmartinz/stats) |
+ | Codewars Badge | <a href="https://www.codewars.com/users/jfmartinz"><img src="https://www.codewars.com/users/jfmartinz/badges/large" alt="Codewars" />                        |
 
 </div>
 
