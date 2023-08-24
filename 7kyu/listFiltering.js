@@ -7,5 +7,5 @@
 // filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
 function filter_list(list) {
-    return list.filter(list => Number.isInteger(list));  
-    }
+  return list.filter((list) => Number.isInteger(list));
+}

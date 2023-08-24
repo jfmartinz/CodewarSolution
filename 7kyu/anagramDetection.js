@@ -10,31 +10,31 @@
 // "Buckethead" is an anagram of "DeathCubeK"
 
 function isAnagram(str1, str2) {
-    str1 = str1.toLowerCase();
-    str2 = str2.toLowerCase();
-  
-    if (str1.length !== str2.length) {
+  str1 = str1.toLowerCase();
+  str2 = str2.toLowerCase();
+
+  if (str1.length !== str2.length) {
+    return false;
+  }
+
+  const charCount = {};
+
+  for (let char of str1) {
+    charCount[char] = charCount[char] + 1 || 1;
+  }
+
+  for (let char of str2) {
+    if (!charCount[char]) {
       return false;
     }
-  
-    const charCount = {};
-  
-    for (let char of str1) {
-      charCount[char] = charCount[char] + 1 || 1;
-    }
-  
-    for (let char of str2) {
-      if (!charCount[char]) {
-        return false;
-      }
-      charCount[char]--;
-    }
-  
-    for (let count in charCount) {
-      if (charCount[count] !== 0) {
-        return false;
-      }
-    }
-  
-    return true;
+    charCount[char]--;
   }
+
+  for (let count in charCount) {
+    if (charCount[count] !== 0) {
+      return false;
+    }
+  }
+
+  return true;
+}

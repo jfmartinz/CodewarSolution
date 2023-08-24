@@ -6,7 +6,7 @@
 // solution('abc', 'bc') // returns true
 // solution('abc', 'd') // returns false
 
-function solution(str, ending){
+function solution(str, ending) {
   const result = str.endsWith(ending);
   return result;
 }

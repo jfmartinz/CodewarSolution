@@ -7,7 +7,7 @@
 // Implement the function taking n and d as parameters and returning this count.
 
 // Examples:
-// n = 10, d = 1 
+// n = 10, d = 1
 // the k*k are 0, 1, 4, 9, 16, 25, 36, 49, 64, 81, 100
 // We are using the digit 1 in: 1, 16, 81, 100. The total count is then 4.
 
@@ -18,18 +18,18 @@
 // Note that 121 has twice the digit 1.
 
 function nbDig(n, d) {
-    let count = 0;
-  
+  let count = 0;
+
   for (let k = 0; k <= n; k++) {
     let square = k * k;
     let squareStr = square.toString();
-    
+
     for (let i = 0; i < squareStr.length; i++) {
       if (parseInt(squareStr[i]) === d) {
         count++;
       }
     }
   }
-  
+
   return count;
 }

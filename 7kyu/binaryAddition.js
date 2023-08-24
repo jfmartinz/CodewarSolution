@@ -9,6 +9,6 @@
 // 5, 9 --> "1110" (5 + 9 = 14 in decimal or 1110 in binary)
 
 function addBinary(a, b) {
-    let sum = a + b;
-    return sum.toString(2);
+  let sum = a + b;
+  return sum.toString(2);
 }

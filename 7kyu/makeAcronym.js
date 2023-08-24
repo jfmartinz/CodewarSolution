@@ -11,9 +11,9 @@
 // Code wars -> C, w -> C W -> CW
 // Note: There will be at least two words in the given string!
 
-function toAcronym(inp){
-    let split = inp.split(' ')
-    const acronym = split.map(word => word[0]);
-    
-      return acronym.join("").toUpperCase();
-    }
+function toAcronym(inp) {
+  let split = inp.split(" ");
+  const acronym = split.map((word) => word[0]);
+
+  return acronym.join("").toUpperCase();
+}

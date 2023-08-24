@@ -1,5 +1,5 @@
 // Check to see if a string has the same amount of 'x's and 'o's.
-//  The method must return a boolean and be case insensitive. The 
+//  The method must return a boolean and be case insensitive. The
 //  string can contain any char.
 
 // Examples input/output:
@@ -11,19 +11,18 @@
 // XO("zzoo") => false
 
 function XO(str) {
- 
-    str = str.toLowerCase();
-    
-    let xCount = 0;
-    let oCount = 0;
-    
-    for (const char of str) {
-      if (char === 'x') {
-        xCount++;
-      } else if (char === 'o') {
-        oCount++;
-      }
+  str = str.toLowerCase();
+
+  let xCount = 0;
+  let oCount = 0;
+
+  for (const char of str) {
+    if (char === "x") {
+      xCount++;
+    } else if (char === "o") {
+      oCount++;
     }
-    
-    return xCount === oCount;
-  } 
+  }
+
+  return xCount === oCount;
+}

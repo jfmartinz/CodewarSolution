@@ -9,8 +9,8 @@
 // [] --> []
 // ["a", "b", "c"] --> ["1: a", "2: b", "3: c"]
 
-var number=function(array){
- 
-    return (array==='')? []:  array.map((element, index) => `${index + 1}: ${element}`);
-     
-   }
+var number = function (array) {
+  return array === ""
+    ? []
+    : array.map((element, index) => `${index + 1}: ${element}`);
+};

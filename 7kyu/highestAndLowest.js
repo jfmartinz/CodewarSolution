@@ -10,24 +10,19 @@
 // There will always be at least one number in the input string.
 // Output string must be two numbers separated by a single space, and highest number is first.
 
-function highAndLow(numbers){
+function highAndLow(numbers) {
+  let splitStr = numbers.split(" ");
+  var max = Number(splitStr[0]);
+  var min = Number(splitStr[0]);
 
-  
-    let splitStr = numbers.split(' ');
-   var max = Number(splitStr[0]);
-   var min = Number(splitStr[0]);
-  
-  for(let i = 1; i < splitStr.length;i++){
+  for (let i = 1; i < splitStr.length; i++) {
     let currentInt = Number(splitStr[i]);
-    if(currentInt > max ){
+    if (currentInt > max) {
       max = currentInt;
     }
-    if(currentInt < min){
+    if (currentInt < min) {
       min = currentInt;
-    } 
-    
-   
+    }
   }
-   return max + " " +min;
+  return max + " " + min;
 }
-
