@@ -10,7 +10,7 @@
 
 // Let's look at another one.
 // You are given the array {1,100,50,-51,1,1}:
-// Your function will return the index 1, because at the 1st position of the array, 
+// Your function will return the index 1, because at the 1st position of the array,
 // the sum of left side of the index ({1}) and the sum of the right side of the index ({50,-51,1,1}) both equal 1.
 
 // Last one:
@@ -26,22 +26,21 @@
 // An integer array of length 0 < arr < 1000. The numbers in the array can be any integer positive or negative.
 
 // Output:
-// The lowest index N where the side to the left of N is equal to the side to the right of N. 
+// The lowest index N where the side to the left of N is equal to the side to the right of N.
 // If you do not find an index that fits these rules, then you will return -1.
 
 // Note:
 // If you are given an array with multiple answers, return the lowest correct index.
 
-function findEvenIndex(arr)
-{
+function findEvenIndex(arr) {
   for (let i = 0; i < arr.length; i++) {
-        const leftSum = arr.slice(0, i).reduce((acc, num) => acc + num, 0);
-        const rightSum = arr.slice(i + 1).reduce((acc, num) => acc + num, 0);
-        
-        if (leftSum === rightSum) {
-            return i;
-        }
+    const leftSum = arr.slice(0, i).reduce((acc, num) => acc + num, 0);
+    const rightSum = arr.slice(i + 1).reduce((acc, num) => acc + num, 0);
+
+    if (leftSum === rightSum) {
+      return i;
     }
-    
-    return -1;
+  }
+
+  return -1;
 }

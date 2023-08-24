@@ -1,7 +1,7 @@
 // Count the number of Duplicates
 // Write a function that will return the count of distinct
-//  case-insensitive alphabetic characters and numeric digits 
-//  that occur more than once in the input string. 
+//  case-insensitive alphabetic characters and numeric digits
+//  that occur more than once in the input string.
 //  The input string can be assumed to contain only alphabets
 //   (both uppercase and lowercase) and numeric digits.
 
@@ -14,24 +14,21 @@
 // "aA11" -> 2 # 'a' and '1'
 // "ABBA" -> 2 # 'A' and 'B' each occur twice
 
-function duplicateCount(text){
-    const lowerInput = text.toLowerCase();
-    
-    
-      const charCount = {};
-    
-      
-      for (let char of lowerInput) {
-        charCount[char] = (charCount[char] || 0) + 1;
-      }
-    
-      
-      let duplicateCount = 0;
-      for (let char in charCount) {
-        if (charCount[char] > 1) {
-          duplicateCount++;
-        }
-      }
-    
-      return duplicateCount;
+function duplicateCount(text) {
+  const lowerInput = text.toLowerCase();
+
+  const charCount = {};
+
+  for (let char of lowerInput) {
+    charCount[char] = (charCount[char] || 0) + 1;
+  }
+
+  let duplicateCount = 0;
+  for (let char in charCount) {
+    if (charCount[char] > 1) {
+      duplicateCount++;
     }
+  }
+
+  return duplicateCount;
+}

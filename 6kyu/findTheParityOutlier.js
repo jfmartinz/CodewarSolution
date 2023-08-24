@@ -1,6 +1,6 @@
 // You are given an array (which will have a length of at least 3,
-//      but could be very large) containing integers. 
-//      The array is either entirely comprised of odd integers or entirely comprised of even integers 
+//      but could be very large) containing integers.
+//      The array is either entirely comprised of odd integers or entirely comprised of even integers
 //      except for a single integer N. Write a method that takes the array as an argument and returns this "outlier" N.
 
 // Examples
@@ -11,22 +11,20 @@
 // Should return: 160 (the only even number)
 
 function findOutlier(integers) {
+  const evenNums = [];
+  const oddNums = [];
 
-    const evenNums = [];
-    const oddNums = [];
-  
-    for(let num of integers){
-      if(num % 2 ===0){
-        evenNums.push(num);
-      }else{
-        oddNums.push(num)
-      }
+  for (let num of integers) {
+    if (num % 2 === 0) {
+      evenNums.push(num);
+    } else {
+      oddNums.push(num);
     }
-  
-    if(evenNums.length === 1){
-      return evenNums[0];
-    }else{
-      return oddNums[0]
-    }
-  
   }
+
+  if (evenNums.length === 1) {
+    return evenNums[0];
+  } else {
+    return oddNums[0];
+  }
+}

@@ -7,15 +7,15 @@
 // NOTE: All numbers will be whole numbers greater than 0.
 
 function expandedForm(num) {
-    const numStr = num.toString();
-      const length = numStr.length;
-      let result = '';
-  
-      for (let i = 0; i < length; i++) {
-          if (numStr[i] !== '0') {
-              result += numStr[i] + '0'.repeat(length - i - 1) + ' + ';
-          }
-      }
-  
-      return result.slice(0, -3); // Remove the trailing ' + ' from the last term
+  const numStr = num.toString();
+  const length = numStr.length;
+  let result = "";
+
+  for (let i = 0; i < length; i++) {
+    if (numStr[i] !== "0") {
+      result += numStr[i] + "0".repeat(length - i - 1) + " + ";
+    }
   }
+
+  return result.slice(0, -3); // Remove the trailing ' + ' from the last term
+}

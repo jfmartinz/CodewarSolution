@@ -7,17 +7,15 @@
 // The tests contain some very huge arrays, so think about performance.
 
 function findUniq(arr) {
-    const numCount = {};
-  
-  
-    arr.forEach(num => {
-      numCount[num] = (numCount[num] || 0) + 1;
-    });
-  
-  
-    for (const num in numCount) {
-      if (numCount[num] === 1) {
-        return parseFloat(num); 
-      }
+  const numCount = {};
+
+  arr.forEach((num) => {
+    numCount[num] = (numCount[num] || 0) + 1;
+  });
+
+  for (const num in numCount) {
+    if (numCount[num] === 1) {
+      return parseFloat(num);
     }
   }
+}

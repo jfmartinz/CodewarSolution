@@ -3,10 +3,10 @@
 
 // Task
 // You need to return a string that looks like a diamond shape when printed on the screen,
-//  using asterisk (*) characters. Trailing spaces should be removed, 
+//  using asterisk (*) characters. Trailing spaces should be removed,
 //  and every line must be terminated with a newline character (\n).
 
-// Return null/nil/None/... if the input is an even number or negative, 
+// Return null/nil/None/... if the input is an even number or negative,
 // as it is not possible to print a diamond of even or negative size.
 
 // Examples
@@ -29,15 +29,12 @@
 // "  *\n ***\n*****\n ***\n  *\n"
 
 function queueTime(customers, n) {
+  const tills = new Array(n).fill(0);
 
-    const tills = new Array(n).fill(0);
+  for (const time of customers) {
+    const nextTill = tills.indexOf(Math.min(...tills));
+    tills[nextTill] += time;
+  }
 
-
-    for (const time of customers) {
-        const nextTill = tills.indexOf(Math.min(...tills));
-        tills[nextTill] += time;
-    }
-
-
-    return Math.max(...tills);
+  return Math.max(...tills);
 }

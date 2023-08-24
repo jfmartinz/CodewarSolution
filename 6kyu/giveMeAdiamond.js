@@ -1,8 +1,8 @@
-// There is a queue for the self-checkout tills at the supermarket. 
+// There is a queue for the self-checkout tills at the supermarket.
 // Your task is write a function to calculate the total time required for all the customers to check out!
 
 // input
-// customers: an array of positive integers representing the queue. 
+// customers: an array of positive integers representing the queue.
 // Each integer represents a customer, and its value is the amount of time they require to check out.
 // n: a positive integer, the number of checkout tills.
 // output
@@ -19,7 +19,7 @@
 
 // queueTime([10,2,3,3], 2)
 // // should return 10
-// // because here n=2 and the 2nd, 3rd, and 4th people in the 
+// // because here n=2 and the 2nd, 3rd, and 4th people in the
 // // queue finish before the 1st person has finished.
 
 // queueTime([2,3,10], 2)
@@ -30,17 +30,17 @@
 // The front person in the queue (i.e. the first element in the array/list) proceeds to a till as soon as it becomes free.
 // N.B. You should assume that all the test input will be valid, as specified above.
 
-function diamond(n){
-    if (n <= 0 || n % 2 === 0) {
-       return null;
-     }
-   
-     let diamondStr = "";
-     for (let i = 0; i < n; i++) {
-       const spaces = Math.abs(Math.floor(n / 2) - i);
-       const stars = n - 2 * spaces;
-       diamondStr += " ".repeat(spaces) + "*".repeat(stars) + "\n";
-     }
-   
-     return diamondStr;
-   }
+function diamond(n) {
+  if (n <= 0 || n % 2 === 0) {
+    return null;
+  }
+
+  let diamondStr = "";
+  for (let i = 0; i < n; i++) {
+    const spaces = Math.abs(Math.floor(n / 2) - i);
+    const stars = n - 2 * spaces;
+    diamondStr += " ".repeat(spaces) + "*".repeat(stars) + "\n";
+  }
+
+  return diamondStr;
+}
