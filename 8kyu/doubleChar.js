@@ -6,6 +6,8 @@
 // * "1234!_ "     -> "11223344!!__  "
 
 function doubleChar(str) {
-    return str.split('').map(char => char + char).join('');
- }
- 
+  return str
+    .split("")
+    .map((char) => char + char)
+    .join("");
+}

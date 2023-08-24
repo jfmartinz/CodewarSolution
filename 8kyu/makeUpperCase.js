@@ -1,3 +1,3 @@
 function makeUpperCase(str) {
-    return str.toUpperCase();
-  }
+  return str.toUpperCase();
+}

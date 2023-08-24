@@ -1,4 +1,4 @@
-// Write a function named sumDigits which takes a number as 
+// Write a function named sumDigits which takes a number as
 // input and returns the sum of the absolute value of each of the number's decimal digits.
 
 // For example: (Input --> Output)
@@ -9,15 +9,13 @@
 // Let's assume that all numbers in the input will be integer values.
 
 function sumDigits(number) {
-    const numStr = Math.abs(number).toString();
-       
-    
-       let digitSum = 0;
-       
-      
-       for (let i = 0; i < numStr.length; i++) {
-           digitSum += parseInt(numStr[i]);
-       }
-       
-       return digitSum;
-   }
+  const numStr = Math.abs(number).toString();
+
+  let digitSum = 0;
+
+  for (let i = 0; i < numStr.length; i++) {
+    digitSum += parseInt(numStr[i]);
+  }
+
+  return digitSum;
+}

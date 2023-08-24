@@ -4,6 +4,6 @@
 
 // [1, 2, 3] --> [2, 4, 6]
 
-function maps(x){
-return x.map((num) => num * 2);
+function maps(x) {
+  return x.map((num) => num * 2);
 }

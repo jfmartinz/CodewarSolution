@@ -15,9 +15,9 @@
 // time = 11.8--> litres = 5
 
 function litres(time) {
-    let liter = 0.5;
-      
-     const waterConsumed = liter * time;
-      const round = Math.floor(waterConsumed);
-      return round
-    }
+  let liter = 0.5;
+
+  const waterConsumed = liter * time;
+  const round = Math.floor(waterConsumed);
+  return round;
+}

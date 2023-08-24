@@ -1,4 +1,3 @@
-
 // Create a function with two arguments that will return an array of the first n multiples of x.
 
 // Assume both the given number and the number of times to count will be positive numbers greater than 0.
@@ -10,13 +9,13 @@
 // countBy(2,5) === [2,4,6,8,10]
 
 function countBy(x, n) {
-    let multiples = [];
-  
-    // Use a loop to generate the first n multiples of x
-    for (let i = 1; i <= n; i++) {
-      const multiple = x * i;  // calculation to generate the multiples of x
-      multiples.push(multiple); // use the push method to push the result to 'multiples'
-    }
+  let multiples = [];
+
+  // Use a loop to generate the first n multiples of x
+  for (let i = 1; i <= n; i++) {
+    const multiple = x * i; // calculation to generate the multiples of x
+    multiples.push(multiple); // use the push method to push the result to 'multiples'
+  }
 }
-    // Return the array of multiples
-    return multiples;
+// Return the array of multiples
+return multiples;

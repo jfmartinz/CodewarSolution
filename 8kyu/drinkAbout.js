@@ -1,4 +1,3 @@
-
 // Kids drink toddy.
 // Teens drink coke.
 // Young adults drink beer.
@@ -20,11 +19,11 @@
 // 30 --> "drink whisky"
 
 function peopleWithAgeDrink(old) {
-
-    return  old < 14 ? "drink toddy":
-            old < 18 ? "drink coke": 
-            old < 21 ? "drink beer":
-            "drink whisky"
-
-    
-  };
+  return old < 14
+    ? "drink toddy"
+    : old < 18
+    ? "drink coke"
+    : old < 21
+    ? "drink beer"
+    : "drink whisky";
+}

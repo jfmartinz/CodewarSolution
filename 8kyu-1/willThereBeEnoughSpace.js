@@ -1,5 +1,5 @@
 // The Story:
-// Bob is working as a bus driver. However, he has become extremely popular amongst the city's residents. 
+// Bob is working as a bus driver. However, he has become extremely popular amongst the city's residents.
 // With so many passengers wanting to get aboard his bus, he sometimes has to face the problem of not enough
 //  space left on the bus! He wants you to write a simple program telling him if he will be able to fit
 //   all the passengers.
@@ -18,8 +18,8 @@
 // cap = 100, on = 60, wait = 50 --> 10 # He can't fit 10 of the 50 waiting
 
 function enough(cap, on, wait) {
-    const totalPassengers = on + wait;
+  const totalPassengers = on + wait;
 
-    const passengersCannotTake = totalPassengers - cap;
-    return (passengersCannotTake > 0) ? passengersCannotTake : 0;
+  const passengersCannotTake = totalPassengers - cap;
+  return passengersCannotTake > 0 ? passengersCannotTake : 0;
 }

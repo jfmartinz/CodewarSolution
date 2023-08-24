@@ -9,11 +9,11 @@
 
 // result = 61000
 
-function past(hours, minutes, seconds){
-  
-    const timeToMiliseconds = (hours * 3600000) // 1 hour is equal to 3600000. 
-    // so we need to multiply it to the number of hours same as with minutes and seconds 
-    + (minutes * 60000) + (seconds * 1000); 
-  return timeToMiliseconds; // return the result 
-  }
-
+function past(hours, minutes, seconds) {
+  const timeToMiliseconds =
+    hours * 3600000 + // 1 hour is equal to 3600000.
+    // so we need to multiply it to the number of hours same as with minutes and seconds
+    minutes * 60000 +
+    seconds * 1000;
+  return timeToMiliseconds; // return the result
+}

@@ -9,9 +9,7 @@
 
 // Write a code that gives out the total amount for different days(d).
 
-
 function rentalCarCost(d) {
-    let costPerDay = d * 40;
-    return d >= 7 ? costPerDay -= 50 : d >= 3 ? costPerDay -= 20 : costPerDay;
-
+  let costPerDay = d * 40;
+  return d >= 7 ? (costPerDay -= 50) : d >= 3 ? (costPerDay -= 20) : costPerDay;
 }

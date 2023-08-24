@@ -8,15 +8,11 @@
 // 8 -> 36 (1 + 2 + 3 + 4 + 5 + 6 + 7 + 8)
 
 var summation = function (num) {
-
-    let sum = 0;
-    let i = 1;
-       while(i <= num){
-          sum +=  i;
-          i++;
-       }
-       return sum;
-    
-     }
-    
-     
+  let sum = 0;
+  let i = 1;
+  while (i <= num) {
+    sum += i;
+    i++;
+  }
+  return sum;
+};

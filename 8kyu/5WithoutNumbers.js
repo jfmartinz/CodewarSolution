@@ -4,6 +4,6 @@
 //  0123456789*+-/
 
 function unusualFive(str) {
-    var x = "hello".length;
-    return x;
-    }
+  var x = "hello".length;
+  return x;
+}

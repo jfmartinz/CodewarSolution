@@ -8,10 +8,10 @@
 
 // Example(Input --> Output)
 
-// ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5" 
+// ["hay", "junk", "hay", "hay", "moreJunk", "needle", "randomJunk"] --> "found the needle at position 5"
 // Note: In COBOL, it should return "found the needle at position 6"
 
 function findNeedle(haystack) {
- let index =  haystack.indexOf('needle');
-  return "found the needle at position " + index
+  let index = haystack.indexOf("needle");
+  return "found the needle at position " + index;
 }

@@ -1,5 +1,5 @@
-// Given two integers a and b, which can be positive or negative, 
-// find the sum of all the integers between and including them and return it. 
+// Given two integers a and b, which can be positive or negative,
+// find the sum of all the integers between and including them and return it.
 // If the two numbers are equal return a or b.
 
 // Note: a and b are not ordered!
@@ -14,22 +14,21 @@
 // Your function should only return a number, not the explanation about how you get that number.
 
 function getSum(a, b) {
+  if (a === b) {
+    return a;
+  }
 
-    if (a === b) {
-        return a;
+  let sum = 0;
+
+  if (a < b) {
+    for (let i = a; i <= b; i++) {
+      sum += i;
     }
-
-    let sum = 0;
-
-    if (a < b) {
-        for (let i = a; i <= b; i++) {
-            sum += i;
-        }
-    } else {
-        for (let i = b; i <= a; i++) {
-            sum += i;
-        }
+  } else {
+    for (let i = b; i <= a; i++) {
+      sum += i;
     }
+  }
 
-    return sum;
+  return sum;
 }

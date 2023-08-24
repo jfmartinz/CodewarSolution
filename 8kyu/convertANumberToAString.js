@@ -8,6 +8,6 @@
 // -100 --> "-100"
 
 function numberToString(num) {
-    let numToString = num.toString();  //  method to convert the number to string
-    return numToString; // return the number as string
-   }
+  let numToString = num.toString(); //  method to convert the number to string
+  return numToString; // return the number as string
+}

@@ -10,8 +10,7 @@
 //  add your point to the given array!
 
 function betterThanAverage(classPoints, yourPoints) {
-
-    const sum = classPoints.reduce((acc, score) => acc + score, 0);
-    const average = sum / classPoints.length;
-    return yourPoints > average
-  }
+  const sum = classPoints.reduce((acc, score) => acc + score, 0);
+  const average = sum / classPoints.length;
+  return yourPoints > average;
+}

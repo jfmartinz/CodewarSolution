@@ -6,15 +6,14 @@
 // n = 1  ==> [1, 2]     # [2^0, 2^1]
 // n = 2  ==> [1, 2, 4]  # [2^0, 2^1, 2^2]
 
-function powersOfTwo(n){
-  
-    const result = [];
-    let i = 0;
-    
-    while(n >= i){
-    result.push(Math.pow(2, i))
-    i++
-    }
-    
-    return result
+function powersOfTwo(n) {
+  const result = [];
+  let i = 0;
+
+  while (n >= i) {
+    result.push(Math.pow(2, i));
+    i++;
   }
+
+  return result;
+}

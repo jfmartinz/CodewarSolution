@@ -7,6 +7,5 @@
 // otherwise	'Hello guest'
 
 function greet(name, owner) {
-    return name === owner ? "Hello boss" : "Hello guest";
+  return name === owner ? "Hello boss" : "Hello guest";
 }
-

@@ -11,6 +11,6 @@
 // Zero alone is fine, don't worry about it. Poor guy anyway
 
 function noBoringZeros(n) {
-    n = n.toString();
-    return Number(n.replace(/0+$/, ''))
-  }
+  n = n.toString();
+  return Number(n.replace(/0+$/, ""));
+}

@@ -1,4 +1,4 @@
-// Your task is to make two functions ( max and min, or maximum and minimum, etc., depending on the language ) 
+// Your task is to make two functions ( max and min, or maximum and minimum, etc., depending on the language )
 // that receive a list of integers as input, and return the largest and lowest number in that list, respectively.
 
 // Examples (Input -> Output)
@@ -10,21 +10,21 @@
 // You may consider that there will not be any empty arrays/vectors.
 
 function max(list) {
-    var max = list[0];
-    for (var i = 1; i < list.length; i++) {
-      if (list[i] > max) {
-        max = list[i];
-      }
+  var max = list[0];
+  for (var i = 1; i < list.length; i++) {
+    if (list[i] > max) {
+      max = list[i];
     }
-    return max;
   }
-  
-  function min(list) {
-    var min = list[0];
-    for (var i = 1; i < list.length; i++) {
-      if (list[i] < min) {
-        min = list[i];
-      }
+  return max;
+}
+
+function min(list) {
+  var min = list[0];
+  for (var i = 1; i < list.length; i++) {
+    if (list[i] < min) {
+      min = list[i];
     }
-    return min;
   }
+  return min;
+}
